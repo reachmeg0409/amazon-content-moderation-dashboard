@@ -93,6 +93,9 @@ Advanced DAX measures developed:
  
 **Screenshots**
 
+<img width="1328" height="821" alt="image" src="https://github.com/user-attachments/assets/3757fb0c-0ca8-4f64-8982-424d46b48294" />
+
+
 **Appendix – DAX Measures**
 
       Total Violations = COUNTROWS('Moderation')
