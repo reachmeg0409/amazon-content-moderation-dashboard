@@ -13,9 +13,9 @@ Amazon faces challenges in managing large-scale content moderation across its di
 
 The dataset simulates real-world moderation activity:
 
-Source: Amazon’s moderation logs (simulated, not sensitive).
+  Source: Amazon’s moderation logs (simulated, not sensitive).
 
-Scope: 100,000+ cases across reviews, product titles, images, ASINs, marketplaces, and teams.
+  Scope: 100,000+ cases across reviews, product titles, images, ASINs, marketplaces, and teams.
 
 | Column Name           | Description                                           |
 | --------------------- | ----------------------------------------------------- |
@@ -49,12 +49,47 @@ Scope: 100,000+ cases across reviews, product titles, images, ASINs, marketplace
 
 **DAX Logic & KPIs**
   
-Advanced DAX measures developed:
+**Advanced DAX measures developed:**
 
-    Violation % by Category/Marketplace:  Violation Percentage= COUNT(All Records) 
-                                                                COUNT(Violation)
+    Violation % by Category/Marketplace:  Violation Percentage= COUNT(All Records) / COUNT(Violation)
+                                                                
+    Avg Review Time per Team:  Avg Time=AVERAGE(Review_Time_Minutes)       
 
-    Avg Review Time per Team:  Avg Time=AVERAGE(Review_Time_Minutes)                            
+    False Positive Rate, Critical Violation %
+
+    AI vs Human flagging effectiveness, Escalation Rate, Category Sensitivity
+
+**Dashboard Highlights**
+
+**Team Performance Monitoring:** Bar charts compare escalation rates and review times across moderation teams.
+
+**Platform Risk Analysis:** Donut and line charts highlight marketplaces/regions with highest violation/incident rates.
+
+**Flagging Source Evaluation:** Segmented stacked charts show detection distribution between AI and human sources.
+
+**Category Sensitivity:** Visuals pinpoint sensitive product categories prone to frequent violations.
+
+**Operational Load Forecasting:** Line graphs display review volumes for staffing and resource planning.
+
+**Key Insights**
+
+  Certain regions (e.g., US, UK) and product categories (Electronics, Books) showed higher violation rates.
+
+  Teams with highest avg review times often also faced more complex escalations.
+
+  AI flagging was effective but had a higher false positive rate than human flaggers.
+
+  Review volumes increased during promotional periods, suggesting the need for scalable resources.
+
+**Recommendations**
+
+  Invest in AI flagging improvements to reduce false positives.
+
+  Reallocate resources to high-risk categories and marketplaces.
+
+  Provide targeted training for teams with longer average review times.
+
+  Use operational load forecasting to plan moderation capacity ahead of demand spikes.
  
 
     
