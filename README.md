@@ -16,6 +16,19 @@ Source: Amazon’s moderation logs (simulated, not sensitive).
 
 Scope: 100,000+ cases across reviews, product titles, images, ASINs, marketplaces, and teams.
 
+| Column Name           | Description                                           |
+| --------------------- | ----------------------------------------------------- |
+| Date                  | Review date                                           |
+| Content_ID            | Unique ASIN/content record                            |
+| Content_Type          | Type of content moderated                             |
+| ASIN_Category         | Product category (Electronics, Books, etc.)           |
+| Marketplace           | Region (US, UK, IN, etc.)                             |
+| Moderator_Team        | Team responsible for moderation                       |
+| Violation_Type        | Type of policy or content violation                   |
+| Moderation_Action     | Action taken (Removed, Suppressed, etc.)              |
+| Review_Outcome        | Result of review (Valid Violation, etc.)              |
+| Review_Time_Minutes   | Time spent reviewing (2–180 min)                      |
+| Flagged_By            | Source that triggered moderation (AI, Customer, etc.) |
 
 
 Data Cleaning & Modeling
