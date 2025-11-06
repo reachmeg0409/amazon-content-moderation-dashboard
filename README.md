@@ -7,3 +7,11 @@ This project delivers a comprehensive Power BI dashboard analyzing Amazon’s in
 Business Problem
 
 Amazon faces challenges in managing large-scale content moderation across its diverse global marketplace. The business needs actionable insights into violation patterns, team workloads, AI flagging effectiveness, and operational risks to enhance compliance and optimize resource allocation.
+
+Dataset Overview
+
+The dataset simulates real-world moderation activity:
+
+Source: Amazon’s moderation logs (simulated, not sensitive).
+
+Scope: 100,000+ cases across reviews, product titles, images, ASINs, marketplaces, and teams.
