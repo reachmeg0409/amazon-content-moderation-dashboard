@@ -90,6 +90,11 @@ Advanced DAX measures developed:
   • Provide targeted training for teams with longer average review times.
 
   • Use operational load forecasting to plan moderation capacity ahead of demand spikes.
+
+## Live Dashboard
+
+[Click here to view the interactive Power BI dashboard.](https://app.powerbi.com/view?r=eyJrIjoiNjZlODdmMTItOGVlNC00M2QwLTlhYjktODFhMDk0NTVjNmQyIiwidCI6IjEwMjQzNTcwLWRiZWYtNGQzNi04ZjA2LTgwMGQxNDE3OWYxMCJ9))
+
  
 **Screenshots**
 
