@@ -49,15 +49,15 @@ The dataset simulates real-world moderation activity:
 
 **DAX Logic & KPIs**
   
-**Advanced DAX measures developed:**
+Advanced DAX measures developed:
 
-    Violation % by Category/Marketplace:  Violation Percentage= COUNT(All Records) / COUNT(Violation)
+    • Violation % by Category/Marketplace:  Violation Percentage= COUNT(All Records) / COUNT(Violation)
                                                                 
-    Avg Review Time per Team:  Avg Time=AVERAGE(Review_Time_Minutes)       
+    • Avg Review Time per Team:  Avg Time=AVERAGE(Review_Time_Minutes)       
 
-    False Positive Rate, Critical Violation %
+    • False Positive Rate, Critical Violation %
 
-    AI vs Human flagging effectiveness, Escalation Rate, Category Sensitivity
+    • AI vs Human flagging effectiveness, Escalation Rate, Category Sensitivity
 
 **Dashboard Highlights**
 
@@ -73,23 +73,23 @@ The dataset simulates real-world moderation activity:
 
 **Key Insights**
 
-  Certain regions (e.g., US, UK) and product categories (Electronics, Books) showed higher violation rates.
+  • Certain regions (e.g., US, UK) and product categories (Electronics, Books) showed higher violation rates.
 
-  Teams with highest avg review times often also faced more complex escalations.
+  • Teams with highest avg review times often also faced more complex escalations.
 
-  AI flagging was effective but had a higher false positive rate than human flaggers.
+  • AI flagging was effective but had a higher false positive rate than human flaggers.
 
-  Review volumes increased during promotional periods, suggesting the need for scalable resources.
+  • Review volumes increased during promotional periods, suggesting the need for scalable resources.
 
 **Recommendations**
 
-  Invest in AI flagging improvements to reduce false positives.
+  1. Invest in AI flagging improvements to reduce false positives.
 
-  Reallocate resources to high-risk categories and marketplaces.
+  2. Reallocate resources to high-risk categories and marketplaces.
 
-  Provide targeted training for teams with longer average review times.
+  3. Provide targeted training for teams with longer average review times.
 
-  Use operational load forecasting to plan moderation capacity ahead of demand spikes.
+  4. Use operational load forecasting to plan moderation capacity ahead of demand spikes.
  
 
     
