@@ -1,5 +1,6 @@
 **Trust & Safety Analytics Dashboard for Amazon Content Moderation Operations**
 
+
 **Executive Summary**
 
 This project delivers a comprehensive Power BI dashboard analyzing Amazon’s internal content moderation across multiple marketplaces and content types. Using robust data modeling and tailored DAX measures, it uncovers trends in violations, team efficiencies, and platform risks, supporting strategic decisions for improved trust and safety operations.
@@ -29,6 +30,7 @@ Scope: 100,000+ cases across reviews, product titles, images, ASINs, marketplace
 | Review_Outcome        | Result of review (Valid Violation, etc.)              |
 | Review_Time_Minutes   | Time spent reviewing (2–180 min)                      |
 | Flagged_By            | Source that triggered moderation (AI, Customer, etc.) |
+
 
 
 **Data Cleaning & Modeling**
