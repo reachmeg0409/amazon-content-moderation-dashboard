@@ -1,4 +1,4 @@
-**Trust & Safety Analytics Dashboard for Amazon Content Moderation Operations**
+                                                            **Trust & Safety Analytics Dashboard for Amazon Content Moderation Operations**
 
 
 **Executive Summary**
@@ -83,13 +83,13 @@ Advanced DAX measures developed:
 
 **Recommendations**
 
-  1. Invest in AI flagging improvements to reduce false positives.
+1. Invest in AI flagging improvements to reduce false positives.
 
-  2. Reallocate resources to high-risk categories and marketplaces.
+2. Reallocate resources to high-risk categories and marketplaces.
 
-  3. Provide targeted training for teams with longer average review times.
+3. Provide targeted training for teams with longer average review times.
 
-  4. Use operational load forecasting to plan moderation capacity ahead of demand spikes.
+4. Use operational load forecasting to plan moderation capacity ahead of demand spikes.
  
 
     
