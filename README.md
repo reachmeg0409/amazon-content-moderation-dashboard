@@ -83,13 +83,25 @@ Advanced DAX measures developed:
 
 **Recommendations**
 
-1. Invest in AI flagging improvements to reduce false positives.
+  • Invest in AI flagging improvements to reduce false positives.
 
-2. Reallocate resources to high-risk categories and marketplaces.
+  • Reallocate resources to high-risk categories and marketplaces.
 
-3. Provide targeted training for teams with longer average review times.
+  • Provide targeted training for teams with longer average review times.
 
-4. Use operational load forecasting to plan moderation capacity ahead of demand spikes.
+  • Use operational load forecasting to plan moderation capacity ahead of demand spikes.
  
+**Screenshots**
+
+**Appendix – DAX Measures**
+
+      Total Violations = COUNTROWS('Moderation')
+      Critical Violation % = CALCULATE([Total Violations], 'Moderation'[Violation_Type]="Critical") / [Total Violations]
+      False Positive % = CALCULATE([Total Violations], 'Moderation'[Review_Outcome]="False Positive") / [Total Violations]
+      Avg Review Time = AVERAGE('Moderation'[Review_Time_Minutes])
+      Escalation Rate = CALCULATE([Total Violations], 'Moderation'[Moderation_Action]="Escalated") / [Total Violations]
+      AI Flagging % = CALCULATE([Total Violations], 'Moderation'[Flagged_By]="AI") / [Total Violations]
+
+
 
     
