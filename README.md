@@ -15,3 +15,19 @@ The dataset simulates real-world moderation activity:
 Source: Amazon’s moderation logs (simulated, not sensitive).
 
 Scope: 100,000+ cases across reviews, product titles, images, ASINs, marketplaces, and teams.
+
+
+
+Data Cleaning & Modeling
+
+  Imported raw logs into Power BI, checked for missing and duplicate records.
+
+  Standardized categorical columns (Marketplace, Moderator_Team, etc.).
+
+  Star schema design:
+
+    Fact table: Moderation
+
+    Dimensions: Date, Moderator_Team, Marketplace, Content_Type, ASIN_Category
+
+  Data validated for reporting granularity and hierarchical roll-ups.
