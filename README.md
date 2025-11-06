@@ -1,4 +1,4 @@
-**Trust & Safety Analytics Dashboard for Amazon Content Moderation Operations**
+## Trust & Safety Analytics Dashboard for Amazon Content Moderation Operations
 
 
 **Executive Summary**
@@ -91,7 +91,7 @@ Advanced DAX measures developed:
 
   • Use operational load forecasting to plan moderation capacity ahead of demand spikes.
 
-## Live Dashboard
+**Live Dashboard**
 
 [Click here to view the interactive Power BI dashboard.](https://app.powerbi.com/view?r=eyJrIjoiNjZlODdmMTItOGVlNC00M2QwLTlhYjktODFhMDk0NTVjNmQyIiwidCI6IjEwMjQzNTcwLWRiZWYtNGQzNi04ZjA2LTgwMGQxNDE3OWYxMCJ9))
 
