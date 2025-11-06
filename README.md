@@ -35,17 +35,17 @@ The dataset simulates real-world moderation activity:
 
 **Data Cleaning & Modeling**
 
-  Imported raw logs into Power BI, checked for missing and duplicate records.
+  • Imported raw logs into Power BI, checked for missing and duplicate records.
 
-  Standardized categorical columns (Marketplace, Moderator_Team, etc.).
+  • Standardized categorical columns (Marketplace, Moderator_Team, etc.).
 
-  Star schema design:
+  • Star schema design:
 
-  1. Fact table: Moderation
+    1. Fact table: Moderation
 
-  2. Dimensions: Date, Moderator_Team, Marketplace, Content_Type, ASIN_Category
+    2. Dimensions: Date, Moderator_Team, Marketplace, Content_Type, ASIN_Category
 
-  Data validated for reporting granularity and hierarchical roll-ups.
+  • Data validated for reporting granularity and hierarchical roll-ups.
 
 **DAX Logic & KPIs**
   
