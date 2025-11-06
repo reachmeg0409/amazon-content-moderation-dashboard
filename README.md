@@ -1,4 +1,4 @@
-                                                            **Trust & Safety Analytics Dashboard for Amazon Content Moderation Operations**
+**Trust & Safety Analytics Dashboard for Amazon Content Moderation Operations**
 
 
 **Executive Summary**
